@@ -5,30 +5,30 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		
-		<title>Merge mp4 video and audio</title>
+		<title>mp4 音视频合并</title>
 	</head>
 
 	<body>
-		<div class="block video fileDrop">
-			<h1>Drop mp4 video here</h1>
+		<div> <!--class="block video fileDrop">-->
+			<h1>在此上传 mp4 格式的视频（支持拖拽）</h1>
 			<input type="file" id="video">
 		</div>
-		<div class="block audio fileDrop">
-			<h1>Drop mp4 audio here</h1>
+		<div> <!--class="block audio fileDrop">-->
+			<h1>在此上传 mp4 格式的音频（支持拖拽）</h1>
 			<input type="file" id="audio">
 		</div>
 		<form class="block form">
-			<span>File name:</span>
+			<span>输出文件名：</span>
 			<input type="text" name="filename" value="output.mp4">
 			<input type="submit" value="Generate">
 		</form>
-		<div class="block output">
+		<div> <!--class="block output">-->
 			<h1>FFmpeg stderr:</h1>
 			<pre id="stderr"></pre>
 		</div>
-		<div class="block example">
-			<a href="./video.mp4">Example video</a>
-			<a href="./audio.mp4">Example audio</a>
+		<div> <!--class="block example">-->
+			<a href="./video.mp4">测试用视频文件（无音频）</a>
+			<a href="./audio.mp4">测试用音频文件</a>
 		</div>
 		
 	<script src="/mergemp4/assets/js/index.js"></script></body>
