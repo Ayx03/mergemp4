@@ -8,4 +8,4 @@
 
 [https://maple3142.github.io/mergemp4/](https://maple3142.github.io/mergemp4/)
 
-<https://aynxu.l03.me/mergemp4/>
+<https://imayx.top/mergemp4/>
